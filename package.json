@@ -1,0 +1,41 @@
+{
+    "name": "katukoori-nithin-portfolio",
+    "version": "1.0.0",
+    "description": "Professional portfolio website for Katukoori Nithin - DevOps Engineer & Data Scientist",
+    "main": "index.html",
+    "scripts": {
+      "start": "npx live-server --port=3000 --open=/index.html",
+      "dev": "npx live-server --port=3000 --open=/index.html --watch=css,js",
+      "build": "echo 'No build process needed for static site'",
+      "deploy": "echo 'Deploy to your preferred hosting service'"
+    },
+    "keywords": [
+      "portfolio",
+      "devops",
+      "data-science",
+      "aws",
+      "kubernetes",
+      "docker",
+      "ci-cd",
+      "web-development"
+    ],
+    "author": {
+      "name": "Katukoori Nithin",
+      "email": "katukoorinithin@gmail.com",
+      "url": "https://github.com/nithinkatukoori"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nithinkatukoori/portfolio"
+    },
+    "homepage": "https://nithinkatukoori.github.io/portfolio/",
+    "devDependencies": {
+      "live-server": "^1.2.2"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
